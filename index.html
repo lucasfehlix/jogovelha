@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="lado-esquerdo">
+            <h1>Jogo da Velha</h1>
+            <div class="tabuleiro">
+                <div id="espaco-1" class="espaco"></div>
+                <div id="espaco-2" class="espaco espacos-linha-vertical"></div>
+                <div id="espaco-3" class="espaco"></div>
+                <div id="espaco-4" class="espaco espacos-linha-horizontal"></div>
+                <div id="espaco-5" class="espaco espacos-linha-vertical espacos-linha-horizontal"></div>
+                <div id="espaco-6" class="espaco espacos-linha-horizontal"></div>
+                <div id="espaco-7" class="espaco"></div>
+                <div id="espaco-8" class="espaco espacos-linha-vertical"></div>
+                <div id="espaco-9" class="espaco"></div>
+            </div>
+        </div>
+        <div class="lado-direito">
+            <div class="vermelho">
+                <div id="vermelho" class="quadrado-vermelho jogador-vez"></div>
+                <p class="vermelho">Vermelho</p>
+            </div>
+            <div class="azul">
+                <div id="azul" class="quadrado-azul"></div>
+                <p class="azul">Azul</p>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
